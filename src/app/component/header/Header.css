@@ -1,0 +1,37 @@
+.main_body{
+    height: 100vh;
+    background-color: gray;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: Tahoma sans-serif ;
+}
+
+.main_navbar{
+    min-height: 40px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 4px;
+    z-index: 99999;
+}
+
+.navbar_baner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar_baner span{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 1rem;
+
+}
+
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    
+}
